@@ -1,0 +1,6 @@
+@projecto_autismo_HostAddress = http://localhost:5286
+
+GET {{projecto_autismo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

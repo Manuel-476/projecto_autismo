@@ -2760,11 +2760,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Devs\\source\\repos\\projecto_autismo\\projecto_autismo\\projecto_autismo.csproj",
+      "projectUniqueName": "C:\\Users\\Devs\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\projecto_autismo.csproj",
       "projectName": "projecto_autismo",
-      "projectPath": "C:\\Users\\Devs\\source\\repos\\projecto_autismo\\projecto_autismo\\projecto_autismo.csproj",
+      "projectPath": "C:\\Users\\Devs\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\projecto_autismo.csproj",
       "packagesPath": "C:\\Users\\Devs\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Devs\\source\\repos\\projecto_autismo\\projecto_autismo\\obj\\",
+      "outputPath": "C:\\Users\\Devs\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

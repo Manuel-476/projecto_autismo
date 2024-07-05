@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2zuoq3GNnfY=",
+  "dgSpecHash": "tFd3JPRy+5k=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Devs\\source\\repos\\projecto_autismo\\projecto_autismo\\projecto_autismo.csproj",
+  "projectFilePath": "C:\\Users\\Devs\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\projecto_autismo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Devs\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Devs\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

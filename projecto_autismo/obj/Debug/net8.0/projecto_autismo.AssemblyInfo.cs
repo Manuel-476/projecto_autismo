@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("projecto_autismo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5052c688dc99186dfaa2611e3b5380de05a4cde")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2f03e1852bfc268f8c36b49cdb2438fddf878b5")]
 [assembly: System.Reflection.AssemblyProductAttribute("projecto_autismo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("projecto_autismo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

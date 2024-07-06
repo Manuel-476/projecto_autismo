@@ -2754,23 +2754,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Devs\\.nuget\\packages\\": {},
+    "C:\\Users\\i 3 8 GERACAO\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Devs\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\projecto_autismo.csproj",
+      "projectUniqueName": "C:\\Users\\i 3 8 GERACAO\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\projecto_autismo.csproj",
       "projectName": "projecto_autismo",
-      "projectPath": "C:\\Users\\Devs\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\projecto_autismo.csproj",
-      "packagesPath": "C:\\Users\\Devs\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Devs\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\obj\\",
+      "projectPath": "C:\\Users\\i 3 8 GERACAO\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\projecto_autismo.csproj",
+      "packagesPath": "C:\\Users\\i 3 8 GERACAO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\i 3 8 GERACAO\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Devs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\i 3 8 GERACAO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2780,7 +2780,6 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2795,9 +2794,7 @@
         ]
       },
       "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
+        "enableAudit": "default"
       }
     },
     "frameworks": {
@@ -2846,7 +2843,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

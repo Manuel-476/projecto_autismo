@@ -11,7 +11,7 @@
         public char genero { get; set; }
         public string telefone { get; set; }
         public string email { get; set; }
-        public List<BibliotecaVirtualEntity > virtuais { get; set; }
-        public List<VitrineEntity> vitrines { get; set; }
+        public ICollection<BibliotecaVirtualEntity >? virtuais { get; set; }
+        public ICollection<VitrineEntity>? vitrines { get; set; }
     }
 }

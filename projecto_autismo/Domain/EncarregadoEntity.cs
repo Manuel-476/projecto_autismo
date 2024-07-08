@@ -8,6 +8,6 @@
         public string telefone { get; set; }
         public string endereco { get; set; }
         public char genero { get; set; }
-        public List<AlunoEntity> alunos { get; set; }
+        public List<AlunoEntity>? alunos { get; set; }
     }
 }

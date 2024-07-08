@@ -9,6 +9,6 @@ namespace projecto_autismo.Application.Entity
         public string descricao { get; set; }
         public DateTime dateTime { get; set; }
         public DateTime? created { get; set; }
-        public FuncionarioDto funcionario { get; set; }
+        public FuncionarioDto? funcionario { get; set; }
     }
 }

@@ -9,7 +9,7 @@
         public string media { get; set; }
         public int categoriaId { get; set; }
         public int funcionarioId { get; set; }
-        public CategoriaEntity categoria { get; set; }
-        public FuncionarioEntity funcionario { get; set; }
+       // public CategoriaEntity? categoria { get; set; }
+      //  public FuncionarioEntity? funcionario { get; set; }
     }
 }

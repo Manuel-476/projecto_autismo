@@ -10,6 +10,6 @@ namespace projecto_autismo.Application.Entity
         public string telefone { get; set; }
         public string endereco { get; set; }
         public char genero { get; set; }
-        public List<AlunoDto> alunos { get; set; }
+        public List<AlunoDto>? alunos { get; set; }
     }
 }

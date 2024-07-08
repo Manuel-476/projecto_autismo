@@ -124,7 +124,7 @@ public class BibliotecaRepository : IBiblioteca
 
             using Stream fileStream = new FileStream(filePath, FileMode.Create);
 
-            bVirtual.media.CopyTo(fileStream);
+            bVirtual.mediaFile.CopyTo(fileStream);
 
             var media = new BibliotecaVirtualEntity()
             {

@@ -7,6 +7,6 @@ namespace projecto_autismo.Application.Entity
         public int id { get; set; }
         public string categoria { get; set; }
         public string descricao { get; set; }
-        public List<BibliotecaVirtualDto> virtuais { get; set; }
+        public ICollection<BibliotecaVirtualDto>? virtuais { get; set; }
     }
 }

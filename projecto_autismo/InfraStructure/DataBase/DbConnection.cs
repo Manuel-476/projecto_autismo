@@ -19,8 +19,8 @@ namespace projecto_autismo.InfraStructure.DataBase
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            string connectionString = "Server=localhost;user=root;password=;database=projecto_autismo";
-            MySqlServerVersion version = new MySqlServerVersion(new Version(14, 24, 1));
+            string connectionString = "server=localhost;user=root;database=projecto_autismo;password=";
+            MySqlServerVersion version = new MySqlServerVersion(new Version(10,4, 24));
             optionsBuilder.UseMySql(connectionString, version);
         }
 
@@ -35,20 +35,20 @@ namespace projecto_autismo.InfraStructure.DataBase
                         .WithOne(al => al.matricula)
                         .HasForeignKey<MatriculaEntity>(mat => mat.alunoId);
 
-            modelBuilder.Entity<FuncionarioEntity>()
+           /* modelBuilder.Entity<FuncionarioEntity>()
                         .HasMany(fun => fun.virtuais)
                         .WithOne(vir => vir.funcionario)
-                        .HasForeignKey(vir => vir.funcionarioId);
+                        .HasForeignKey(vir => vir.funcionarioId);*/
 
             modelBuilder.Entity<FuncionarioEntity>()
                         .HasMany(fun => fun.vitrines)
                         .WithOne(vit => vit.funcionario)
                         .HasForeignKey(vit => vit.funcionarioId);
 
-            modelBuilder.Entity<BibliotecaVirtualEntity>()
+          /*  modelBuilder.Entity<BibliotecaVirtualEntity>()
                         .HasOne(vir => vir.categoria)
                         .WithMany(c => c.virtuais)
-                        .HasForeignKey(vir => vir.categoriaId);
+                        .HasForeignKey(vir => vir.categoriaId);*/
 
             modelBuilder.Entity<DisciplinaEntity>()
                         .HasMany(disc => disc.turmas)

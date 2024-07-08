@@ -6,7 +6,7 @@ namespace projecto_autismo.Application.Entity
     {
         public int id { get; set; }
         public int alunoId { get; set; }
-        public AlunoDto aluno { get; set; }
+        public AlunoDto? aluno { get; set; }
         public DateTime data { get; set; }
     }
 }

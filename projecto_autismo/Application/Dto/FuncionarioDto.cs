@@ -13,6 +13,6 @@ namespace projecto_autismo.Application.Entity
         public char genero { get; set; }
         public string telefone { get; set; }
         public string email { get; set; } = string.Empty;
-        public List<BibliotecaVirtualDto> virtuais { get; set; }
+        public ICollection<BibliotecaVirtualDto>? virtuais { get; set; }
     }
 }

@@ -11,7 +11,7 @@ namespace projecto_autismo.Domain
         public char genero { get; set; }
         public OpcaoBinaria deficiencia {get; set;}
         public string tipo_deficiencia {get; set;}
-        public List<EncarregadoEntity> encarregados { get; set; }
-        public MatriculaEntity matricula { get; set; }
+        public List<EncarregadoEntity>? encarregados { get; set; }
+        public MatriculaEntity? matricula { get; set; }
     }
 }

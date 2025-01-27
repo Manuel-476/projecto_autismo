@@ -16,6 +16,8 @@ namespace projecto_autismo.InfraStructure.DataBase
         public DbSet<TesteEntity> teste { get; set; }
         public DbSet<TurmaEntity> turma { get; set; }
         public DbSet<VitrineEntity> vitrine { get; set; }
+        public DbSet<UserEntity> user { get; set; }
+        public DbSet<CargoEntity> cargo { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -26,14 +28,14 @@ namespace projecto_autismo.InfraStructure.DataBase
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<AlunoEntity>()
-                        .HasMany(al => al.encarregados)
-                        .WithMany(en => en.alunos);
+            //modelBuilder.Entity<AlunoEntity>()
+            //            .HasMany(al => al.encarregados)
+            //            .WithMany(en => en.alunos);
 
-            modelBuilder.Entity<MatriculaEntity>()
-                        .HasOne(mat => mat.aluno)
-                        .WithOne(al => al.matricula)
-                        .HasForeignKey<MatriculaEntity>(mat => mat.alunoId);
+            //modelBuilder.Entity<MatriculaEntity>()
+            //            .HasOne(mat => mat.aluno)
+            //            .WithOne(al => al.matricula)
+            //            .HasForeignKey<MatriculaEntity>(mat => mat.alunoId);
 
            /* modelBuilder.Entity<FuncionarioEntity>()
                         .HasMany(fun => fun.virtuais)
@@ -50,9 +52,9 @@ namespace projecto_autismo.InfraStructure.DataBase
                         .WithMany(c => c.virtuais)
                         .HasForeignKey(vir => vir.categoriaId);*/
 
-            modelBuilder.Entity<DisciplinaEntity>()
-                        .HasMany(disc => disc.turmas)
-                        .WithMany(t => t.disciplinas);
+            //modelBuilder.Entity<DisciplinaEntity>()
+            //            .HasMany(disc => disc.turmas)
+            //            .WithMany(t => t.disciplinas);
 
             modelBuilder.Entity<DisciplinaEntity>()
             .HasMany(disc => disc.notas)

@@ -98,10 +98,10 @@ namespace projecto_autismo.InfraStructure.Repositories
                 oldAluno.nome = newAluno.nome;
                 oldAluno.genero = newAluno.genero;
                 oldAluno.data_nascimento = newAluno.data_nascimento;
-                oldAluno.encarregados = newAluno.encarregados;
+              //  oldAluno.encarregados = newAluno.encarregados;
                 oldAluno.deficiencia = newAluno.deficiencia;
                 oldAluno.tipo_deficiencia = newAluno.tipo_deficiencia;
-                oldAluno.matricula = newAluno.matricula;
+             //   oldAluno.matricula = newAluno.matricula;
 
                 conector.SaveChanges();
 

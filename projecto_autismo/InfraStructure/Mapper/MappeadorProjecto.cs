@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using projecto_autismo.Application.Dto;
 using projecto_autismo.Application.Entity;
 using projecto_autismo.Domain;
 
@@ -43,6 +44,12 @@ namespace projecto_autismo.InfraStructure.Mapper
 
             CreateMap<VitrineDto, VitrineEntity>();
             CreateMap<VitrineEntity, VitrineDto>();
+
+            CreateMap<UserDto, UserEntity>();
+            CreateMap<UserEntity, UserDto>();
+
+            CreateMap<CargoDto, CargoEntity>();
+            CreateMap<CargoEntity, CargoDto>();
         }
     }
 }

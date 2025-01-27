@@ -12,8 +12,8 @@ using projecto_autismo.InfraStructure.DataBase;
 namespace projecto_autismo.Migrations
 {
     [DbContext(typeof(DbConnection))]
-    [Migration("20240707124956_migracao")]
-    partial class migracao
+    [Migration("20250126115303_lastMigration")]
+    partial class lastMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -25,36 +25,6 @@ namespace projecto_autismo.Migrations
 
             MySqlModelBuilderExtensions.AutoIncrementColumns(modelBuilder);
 
-            modelBuilder.Entity("AlunoEntityEncarregadoEntity", b =>
-                {
-                    b.Property<int>("alunosid")
-                        .HasColumnType("int");
-
-                    b.Property<int>("encarregadosid")
-                        .HasColumnType("int");
-
-                    b.HasKey("alunosid", "encarregadosid");
-
-                    b.HasIndex("encarregadosid");
-
-                    b.ToTable("AlunoEntityEncarregadoEntity");
-                });
-
-            modelBuilder.Entity("DisciplinaEntityTurmaEntity", b =>
-                {
-                    b.Property<int>("disciplinasid")
-                        .HasColumnType("int");
-
-                    b.Property<int>("turmasid")
-                        .HasColumnType("int");
-
-                    b.HasKey("disciplinasid", "turmasid");
-
-                    b.HasIndex("turmasid");
-
-                    b.ToTable("DisciplinaEntityTurmaEntity");
-                });
-
             modelBuilder.Entity("projecto_autismo.Domain.AlunoEntity", b =>
                 {
                     b.Property<int>("id")
@@ -62,6 +32,9 @@ namespace projecto_autismo.Migrations
                         .HasColumnType("int");
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("id"));
+
+                    b.Property<int?>("EncarregadoEntityid")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("data_nascimento")
                         .HasColumnType("datetime(6)");
@@ -82,6 +55,8 @@ namespace projecto_autismo.Migrations
                         .HasColumnType("longtext");
 
                     b.HasKey("id");
+
+                    b.HasIndex("EncarregadoEntityid");
 
                     b.ToTable("aluno");
                 });
@@ -131,6 +106,27 @@ namespace projecto_autismo.Migrations
                     b.ToTable("bVirtual");
                 });
 
+            modelBuilder.Entity("projecto_autismo.Domain.CargoEntity", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("id"));
+
+                    b.Property<string>("cargo")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("descricao")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.HasKey("id");
+
+                    b.ToTable("cargo");
+                });
+
             modelBuilder.Entity("projecto_autismo.Domain.CategoriaEntity", b =>
                 {
                     b.Property<int>("id")
@@ -160,15 +156,23 @@ namespace projecto_autismo.Migrations
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("id"));
 
+                    b.Property<int?>("TurmaEntityid")
+                        .HasColumnType("int");
+
                     b.Property<string>("descricao")
                         .IsRequired()
                         .HasColumnType("longtext");
+
+                    b.Property<int>("funcionarioId")
+                        .HasColumnType("int");
 
                     b.Property<string>("nome")
                         .IsRequired()
                         .HasColumnType("longtext");
 
                     b.HasKey("id");
+
+                    b.HasIndex("TurmaEntityid");
 
                     b.ToTable("disciplina");
                 });
@@ -214,9 +218,6 @@ namespace projecto_autismo.Migrations
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("id"));
 
-                    b.Property<int?>("DisciplinaEntityid")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("data_nascimento")
                         .HasColumnType("datetime(6)");
 
@@ -250,8 +251,6 @@ namespace projecto_autismo.Migrations
 
                     b.HasKey("id");
 
-                    b.HasIndex("DisciplinaEntityid");
-
                     b.ToTable("funcionario");
                 });
 
@@ -271,9 +270,6 @@ namespace projecto_autismo.Migrations
 
                     b.HasKey("id");
 
-                    b.HasIndex("alunoId")
-                        .IsUnique();
-
                     b.ToTable("matricula");
                 });
 
@@ -284,6 +280,9 @@ namespace projecto_autismo.Migrations
                         .HasColumnType("int");
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("id"));
+
+                    b.Property<int>("alunoId")
+                        .HasColumnType("int");
 
                     b.Property<int>("disciplinaId")
                         .HasColumnType("int");
@@ -352,6 +351,32 @@ namespace projecto_autismo.Migrations
                     b.ToTable("turma");
                 });
 
+            modelBuilder.Entity("projecto_autismo.Domain.UserEntity", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("cargoId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("nomeUsuario")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("senha")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("cargoId");
+
+                    b.ToTable("user");
+                });
+
             modelBuilder.Entity("projecto_autismo.Domain.VitrineEntity", b =>
                 {
                     b.Property<int>("id")
@@ -384,34 +409,11 @@ namespace projecto_autismo.Migrations
                     b.ToTable("vitrine");
                 });
 
-            modelBuilder.Entity("AlunoEntityEncarregadoEntity", b =>
+            modelBuilder.Entity("projecto_autismo.Domain.AlunoEntity", b =>
                 {
-                    b.HasOne("projecto_autismo.Domain.AlunoEntity", null)
-                        .WithMany()
-                        .HasForeignKey("alunosid")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("projecto_autismo.Domain.EncarregadoEntity", null)
-                        .WithMany()
-                        .HasForeignKey("encarregadosid")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("DisciplinaEntityTurmaEntity", b =>
-                {
-                    b.HasOne("projecto_autismo.Domain.DisciplinaEntity", null)
-                        .WithMany()
-                        .HasForeignKey("disciplinasid")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("projecto_autismo.Domain.TurmaEntity", null)
-                        .WithMany()
-                        .HasForeignKey("turmasid")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .WithMany("alunos")
+                        .HasForeignKey("EncarregadoEntityid");
                 });
 
             modelBuilder.Entity("projecto_autismo.Domain.BibliotecaVirtualEntity", b =>
@@ -425,22 +427,11 @@ namespace projecto_autismo.Migrations
                         .HasForeignKey("FuncionarioEntityid");
                 });
 
-            modelBuilder.Entity("projecto_autismo.Domain.FuncionarioEntity", b =>
+            modelBuilder.Entity("projecto_autismo.Domain.DisciplinaEntity", b =>
                 {
-                    b.HasOne("projecto_autismo.Domain.DisciplinaEntity", null)
-                        .WithMany("funcionarios")
-                        .HasForeignKey("DisciplinaEntityid");
-                });
-
-            modelBuilder.Entity("projecto_autismo.Domain.MatriculaEntity", b =>
-                {
-                    b.HasOne("projecto_autismo.Domain.AlunoEntity", "aluno")
-                        .WithOne("matricula")
-                        .HasForeignKey("projecto_autismo.Domain.MatriculaEntity", "alunoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("aluno");
+                    b.HasOne("projecto_autismo.Domain.TurmaEntity", null)
+                        .WithMany("disciplinas")
+                        .HasForeignKey("TurmaEntityid");
                 });
 
             modelBuilder.Entity("projecto_autismo.Domain.NotaEntity", b =>
@@ -454,6 +445,17 @@ namespace projecto_autismo.Migrations
                     b.Navigation("disciplina");
                 });
 
+            modelBuilder.Entity("projecto_autismo.Domain.UserEntity", b =>
+                {
+                    b.HasOne("projecto_autismo.Domain.CargoEntity", "cargo")
+                        .WithMany()
+                        .HasForeignKey("cargoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("cargo");
+                });
+
             modelBuilder.Entity("projecto_autismo.Domain.VitrineEntity", b =>
                 {
                     b.HasOne("projecto_autismo.Domain.FuncionarioEntity", "funcionario")
@@ -465,11 +467,6 @@ namespace projecto_autismo.Migrations
                     b.Navigation("funcionario");
                 });
 
-            modelBuilder.Entity("projecto_autismo.Domain.AlunoEntity", b =>
-                {
-                    b.Navigation("matricula");
-                });
-
             modelBuilder.Entity("projecto_autismo.Domain.CategoriaEntity", b =>
                 {
                     b.Navigation("virtuais");
@@ -477,9 +474,12 @@ namespace projecto_autismo.Migrations
 
             modelBuilder.Entity("projecto_autismo.Domain.DisciplinaEntity", b =>
                 {
-                    b.Navigation("funcionarios");
-
                     b.Navigation("notas");
+                });
+
+            modelBuilder.Entity("projecto_autismo.Domain.EncarregadoEntity", b =>
+                {
+                    b.Navigation("alunos");
                 });
 
             modelBuilder.Entity("projecto_autismo.Domain.FuncionarioEntity", b =>
@@ -487,6 +487,11 @@ namespace projecto_autismo.Migrations
                     b.Navigation("virtuais");
 
                     b.Navigation("vitrines");
+                });
+
+            modelBuilder.Entity("projecto_autismo.Domain.TurmaEntity", b =>
+                {
+                    b.Navigation("disciplinas");
                 });
 #pragma warning restore 612, 618
         }

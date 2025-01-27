@@ -24,10 +24,10 @@ public class DisciplinaRepository : IDisciplina
             var newDisciplina = _mapper.Map<DisciplinaEntity>(disciplina);
             var oldDisciplina = conector.disciplina.Where(disc => disc.id == id).First();
 
-            oldDisciplina.turmas = oldDisciplina.turmas;
+           // oldDisciplina.turmas = oldDisciplina.turmas;
             oldDisciplina.descricao = newDisciplina.descricao;
             oldDisciplina.nome = newDisciplina.nome;
-            oldDisciplina.funcionarios = newDisciplina.funcionarios;
+          //  oldDisciplina.funcionarios = newDisciplina.funcionarios;
             oldDisciplina.notas = newDisciplina.notas;
 
             conector.SaveChanges();
@@ -59,7 +59,7 @@ public class DisciplinaRepository : IDisciplina
         using var conector = new DbConnection();
         try
         {
-            var disciplinas = conector.disciplina.ToList();
+            var disciplinas = conector.disciplina.Include(x => x.notas).ToList();
 
             var result = _mapper.Map<List<DisciplinaDto>>(disciplinas);
 

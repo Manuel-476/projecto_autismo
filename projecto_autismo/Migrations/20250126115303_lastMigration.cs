@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace projecto_autismo.Migrations
 {
     /// <inheritdoc />
-    public partial class migracao : Migration
+    public partial class lastMigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -16,23 +16,19 @@ namespace projecto_autismo.Migrations
                 .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateTable(
-                name: "aluno",
+                name: "cargo",
                 columns: table => new
                 {
                     id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    nome = table.Column<string>(type: "longtext", nullable: false)
+                    cargo = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    data_nascimento = table.Column<DateTime>(type: "datetime(6)", nullable: false),
-                    genero = table.Column<string>(type: "varchar(1)", nullable: false)
-                        .Annotation("MySql:CharSet", "utf8mb4"),
-                    deficiencia = table.Column<int>(type: "int", nullable: false),
-                    tipo_deficiencia = table.Column<string>(type: "longtext", nullable: false)
+                    descricao = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4")
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_aluno", x => x.id);
+                    table.PrimaryKey("PK_cargo", x => x.id);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
 
@@ -50,23 +46,6 @@ namespace projecto_autismo.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_categoria", x => x.id);
-                })
-                .Annotation("MySql:CharSet", "utf8mb4");
-
-            migrationBuilder.CreateTable(
-                name: "disciplina",
-                columns: table => new
-                {
-                    id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    nome = table.Column<string>(type: "longtext", nullable: false)
-                        .Annotation("MySql:CharSet", "utf8mb4"),
-                    descricao = table.Column<string>(type: "longtext", nullable: false)
-                        .Annotation("MySql:CharSet", "utf8mb4")
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_disciplina", x => x.id);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
 
@@ -90,6 +69,49 @@ namespace projecto_autismo.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_encarregado", x => x.id);
+                })
+                .Annotation("MySql:CharSet", "utf8mb4");
+
+            migrationBuilder.CreateTable(
+                name: "funcionario",
+                columns: table => new
+                {
+                    id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    nome = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    num_identificacao = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    data_nascimento = table.Column<DateTime>(type: "datetime(6)", nullable: false),
+                    funcao = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    endereco = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    genero = table.Column<string>(type: "varchar(1)", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    telefone = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    email = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4")
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_funcionario", x => x.id);
+                })
+                .Annotation("MySql:CharSet", "utf8mb4");
+
+            migrationBuilder.CreateTable(
+                name: "matricula",
+                columns: table => new
+                {
+                    id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    alunoId = table.Column<int>(type: "int", nullable: false),
+                    data = table.Column<DateTime>(type: "datetime(6)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_matricula", x => x.id);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
 
@@ -130,130 +152,53 @@ namespace projecto_autismo.Migrations
                 .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateTable(
-                name: "matricula",
+                name: "user",
                 columns: table => new
                 {
-                    id = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    alunoId = table.Column<int>(type: "int", nullable: false),
-                    data = table.Column<DateTime>(type: "datetime(6)", nullable: false)
+                    nomeUsuario = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    senha = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    cargoId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_matricula", x => x.id);
+                    table.PrimaryKey("PK_user", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_matricula_aluno_alunoId",
-                        column: x => x.alunoId,
-                        principalTable: "aluno",
+                        name: "FK_user_cargo_cargoId",
+                        column: x => x.cargoId,
+                        principalTable: "cargo",
                         principalColumn: "id",
                         onDelete: ReferentialAction.Cascade);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateTable(
-                name: "funcionario",
+                name: "aluno",
                 columns: table => new
                 {
                     id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     nome = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    num_identificacao = table.Column<string>(type: "longtext", nullable: false)
-                        .Annotation("MySql:CharSet", "utf8mb4"),
                     data_nascimento = table.Column<DateTime>(type: "datetime(6)", nullable: false),
-                    funcao = table.Column<string>(type: "longtext", nullable: false)
-                        .Annotation("MySql:CharSet", "utf8mb4"),
-                    endereco = table.Column<string>(type: "longtext", nullable: false)
-                        .Annotation("MySql:CharSet", "utf8mb4"),
                     genero = table.Column<string>(type: "varchar(1)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    telefone = table.Column<string>(type: "longtext", nullable: false)
+                    deficiencia = table.Column<int>(type: "int", nullable: false),
+                    tipo_deficiencia = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    email = table.Column<string>(type: "longtext", nullable: false)
-                        .Annotation("MySql:CharSet", "utf8mb4"),
-                    DisciplinaEntityid = table.Column<int>(type: "int", nullable: true)
+                    EncarregadoEntityid = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_funcionario", x => x.id);
+                    table.PrimaryKey("PK_aluno", x => x.id);
                     table.ForeignKey(
-                        name: "FK_funcionario_disciplina_DisciplinaEntityid",
-                        column: x => x.DisciplinaEntityid,
-                        principalTable: "disciplina",
-                        principalColumn: "id");
-                })
-                .Annotation("MySql:CharSet", "utf8mb4");
-
-            migrationBuilder.CreateTable(
-                name: "nota",
-                columns: table => new
-                {
-                    id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    nota1 = table.Column<float>(type: "float", nullable: false),
-                    nota2 = table.Column<float>(type: "float", nullable: false),
-                    nota3 = table.Column<float>(type: "float", nullable: false),
-                    disciplinaId = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_nota", x => x.id);
-                    table.ForeignKey(
-                        name: "FK_nota_disciplina_disciplinaId",
-                        column: x => x.disciplinaId,
-                        principalTable: "disciplina",
-                        principalColumn: "id",
-                        onDelete: ReferentialAction.Cascade);
-                })
-                .Annotation("MySql:CharSet", "utf8mb4");
-
-            migrationBuilder.CreateTable(
-                name: "AlunoEntityEncarregadoEntity",
-                columns: table => new
-                {
-                    alunosid = table.Column<int>(type: "int", nullable: false),
-                    encarregadosid = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_AlunoEntityEncarregadoEntity", x => new { x.alunosid, x.encarregadosid });
-                    table.ForeignKey(
-                        name: "FK_AlunoEntityEncarregadoEntity_aluno_alunosid",
-                        column: x => x.alunosid,
-                        principalTable: "aluno",
-                        principalColumn: "id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_AlunoEntityEncarregadoEntity_encarregado_encarregadosid",
-                        column: x => x.encarregadosid,
+                        name: "FK_aluno_encarregado_EncarregadoEntityid",
+                        column: x => x.EncarregadoEntityid,
                         principalTable: "encarregado",
-                        principalColumn: "id",
-                        onDelete: ReferentialAction.Cascade);
-                })
-                .Annotation("MySql:CharSet", "utf8mb4");
-
-            migrationBuilder.CreateTable(
-                name: "DisciplinaEntityTurmaEntity",
-                columns: table => new
-                {
-                    disciplinasid = table.Column<int>(type: "int", nullable: false),
-                    turmasid = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_DisciplinaEntityTurmaEntity", x => new { x.disciplinasid, x.turmasid });
-                    table.ForeignKey(
-                        name: "FK_DisciplinaEntityTurmaEntity_disciplina_disciplinasid",
-                        column: x => x.disciplinasid,
-                        principalTable: "disciplina",
-                        principalColumn: "id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_DisciplinaEntityTurmaEntity_turma_turmasid",
-                        column: x => x.turmasid,
-                        principalTable: "turma",
-                        principalColumn: "id",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "id");
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
 
@@ -318,10 +263,58 @@ namespace projecto_autismo.Migrations
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
 
+            migrationBuilder.CreateTable(
+                name: "disciplina",
+                columns: table => new
+                {
+                    id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    nome = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    descricao = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    funcionarioId = table.Column<int>(type: "int", nullable: false),
+                    TurmaEntityid = table.Column<int>(type: "int", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_disciplina", x => x.id);
+                    table.ForeignKey(
+                        name: "FK_disciplina_turma_TurmaEntityid",
+                        column: x => x.TurmaEntityid,
+                        principalTable: "turma",
+                        principalColumn: "id");
+                })
+                .Annotation("MySql:CharSet", "utf8mb4");
+
+            migrationBuilder.CreateTable(
+                name: "nota",
+                columns: table => new
+                {
+                    id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    nota1 = table.Column<float>(type: "float", nullable: false),
+                    nota2 = table.Column<float>(type: "float", nullable: false),
+                    nota3 = table.Column<float>(type: "float", nullable: false),
+                    disciplinaId = table.Column<int>(type: "int", nullable: false),
+                    alunoId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_nota", x => x.id);
+                    table.ForeignKey(
+                        name: "FK_nota_disciplina_disciplinaId",
+                        column: x => x.disciplinaId,
+                        principalTable: "disciplina",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Cascade);
+                })
+                .Annotation("MySql:CharSet", "utf8mb4");
+
             migrationBuilder.CreateIndex(
-                name: "IX_AlunoEntityEncarregadoEntity_encarregadosid",
-                table: "AlunoEntityEncarregadoEntity",
-                column: "encarregadosid");
+                name: "IX_aluno_EncarregadoEntityid",
+                table: "aluno",
+                column: "EncarregadoEntityid");
 
             migrationBuilder.CreateIndex(
                 name: "IX_bVirtual_CategoriaEntityid",
@@ -334,25 +327,19 @@ namespace projecto_autismo.Migrations
                 column: "FuncionarioEntityid");
 
             migrationBuilder.CreateIndex(
-                name: "IX_DisciplinaEntityTurmaEntity_turmasid",
-                table: "DisciplinaEntityTurmaEntity",
-                column: "turmasid");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_funcionario_DisciplinaEntityid",
-                table: "funcionario",
-                column: "DisciplinaEntityid");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_matricula_alunoId",
-                table: "matricula",
-                column: "alunoId",
-                unique: true);
+                name: "IX_disciplina_TurmaEntityid",
+                table: "disciplina",
+                column: "TurmaEntityid");
 
             migrationBuilder.CreateIndex(
                 name: "IX_nota_disciplinaId",
                 table: "nota",
                 column: "disciplinaId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_user_cargoId",
+                table: "user",
+                column: "cargoId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_vitrine_funcionarioId",
@@ -364,13 +351,10 @@ namespace projecto_autismo.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "AlunoEntityEncarregadoEntity");
+                name: "aluno");
 
             migrationBuilder.DropTable(
                 name: "bVirtual");
-
-            migrationBuilder.DropTable(
-                name: "DisciplinaEntityTurmaEntity");
 
             migrationBuilder.DropTable(
                 name: "matricula");
@@ -382,6 +366,9 @@ namespace projecto_autismo.Migrations
                 name: "teste");
 
             migrationBuilder.DropTable(
+                name: "user");
+
+            migrationBuilder.DropTable(
                 name: "vitrine");
 
             migrationBuilder.DropTable(
@@ -391,16 +378,16 @@ namespace projecto_autismo.Migrations
                 name: "categoria");
 
             migrationBuilder.DropTable(
-                name: "turma");
+                name: "disciplina");
 
             migrationBuilder.DropTable(
-                name: "aluno");
+                name: "cargo");
 
             migrationBuilder.DropTable(
                 name: "funcionario");
 
             migrationBuilder.DropTable(
-                name: "disciplina");
+                name: "turma");
         }
     }
 }

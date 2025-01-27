@@ -1,0 +1,1004 @@
+[
+  {
+    "ContainingType": "projecto_autismo.Controllers.AlunoController",
+    "Method": "SalvarAluno",
+    "RelativePath": "api/Aluno",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "aluno",
+        "Type": "projecto_autismo.Application.Entity.AlunoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.AlunoController",
+    "Method": "ListarAluno",
+    "RelativePath": "api/Aluno",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.AlunoController",
+    "Method": "ApagarAluno",
+    "RelativePath": "api/Aluno",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.AlunoController",
+    "Method": "AlterarDadosAluno",
+    "RelativePath": "api/Aluno",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "aluno",
+        "Type": "projecto_autismo.Application.Entity.AlunoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.AlunoController",
+    "Method": "ObterAlunopeloId",
+    "RelativePath": "api/Aluno/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.BibliotecaController",
+    "Method": "SalvarMedia",
+    "RelativePath": "api/Biblioteca_Virtual",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "titulo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "descricao",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "endereco",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "mediaFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "media",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "categoriaId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "funcionarioId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.BibliotecaController",
+    "Method": "ListarMedia",
+    "RelativePath": "api/Biblioteca_Virtual",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.BibliotecaController",
+    "Method": "ApagarMedia",
+    "RelativePath": "api/Biblioteca_Virtual",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.BibliotecaController",
+    "Method": "AlterarDadosMedia",
+    "RelativePath": "api/Biblioteca_Virtual",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "titulo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "descricao",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "endereco",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "mediaFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "media",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "categoriaId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "funcionarioId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.BibliotecaController",
+    "Method": "ObterMediapeloId",
+    "RelativePath": "api/Biblioteca_Virtual/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.BibliotecaController",
+    "Method": "DownloadMedia",
+    "RelativePath": "api/Biblioteca_Virtual/Download/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.CategoriaController",
+    "Method": "SalvarCategoria",
+    "RelativePath": "api/Categoria",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoria",
+        "Type": "projecto_autismo.Application.Entity.CategoriaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.CategoriaController",
+    "Method": "ListarCategoria",
+    "RelativePath": "api/Categoria",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.CategoriaController",
+    "Method": "ApagarCategoria",
+    "RelativePath": "api/Categoria",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.CategoriaController",
+    "Method": "AlterarDadosCategoria",
+    "RelativePath": "api/Categoria",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "categoria",
+        "Type": "projecto_autismo.Application.Entity.CategoriaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.CategoriaController",
+    "Method": "ObterCategoriapeloId",
+    "RelativePath": "api/Categoria/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.DisciplinaController",
+    "Method": "SalvarDisciplina",
+    "RelativePath": "api/Disciplina",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "disciplina",
+        "Type": "projecto_autismo.Application.Entity.DisciplinaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.DisciplinaController",
+    "Method": "ListarDisciplina",
+    "RelativePath": "api/Disciplina",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.DisciplinaController",
+    "Method": "ApagarDisciplina",
+    "RelativePath": "api/Disciplina",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.DisciplinaController",
+    "Method": "AlterarDadosAluno",
+    "RelativePath": "api/Disciplina",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "disciplina",
+        "Type": "projecto_autismo.Application.Entity.DisciplinaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.DisciplinaController",
+    "Method": "ObterDisciplinapeloId",
+    "RelativePath": "api/Disciplina/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.FuncionarioController",
+    "Method": "SalvarFuncionario",
+    "RelativePath": "api/Funcionario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "funcionario",
+        "Type": "projecto_autismo.Application.Entity.FuncionarioDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.FuncionarioController",
+    "Method": "ListarFuncionario",
+    "RelativePath": "api/Funcionario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.FuncionarioController",
+    "Method": "ApagarFuncionario",
+    "RelativePath": "api/Funcionario",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.FuncionarioController",
+    "Method": "AlterarDadosFuncionario",
+    "RelativePath": "api/Funcionario",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "funcionario",
+        "Type": "projecto_autismo.Application.Entity.FuncionarioDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.FuncionarioController",
+    "Method": "ObterFuncionariopeloId",
+    "RelativePath": "api/Funcionario/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.MatriculaController",
+    "Method": "SalvarMatricula",
+    "RelativePath": "api/Matricula",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "matricula",
+        "Type": "projecto_autismo.Application.Entity.MatriculaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.MatriculaController",
+    "Method": "ListarMatricula",
+    "RelativePath": "api/Matricula",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.MatriculaController",
+    "Method": "ApagarMatricula",
+    "RelativePath": "api/Matricula",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.MatriculaController",
+    "Method": "AlterarDadosAluno",
+    "RelativePath": "api/Matricula",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "matricula",
+        "Type": "projecto_autismo.Application.Entity.MatriculaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.MatriculaController",
+    "Method": "ObterMatriculapeloId",
+    "RelativePath": "api/Matricula/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.NotaController",
+    "Method": "SalvarNota",
+    "RelativePath": "api/Nota",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nota",
+        "Type": "projecto_autismo.Application.Entity.NotaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.NotaController",
+    "Method": "ListarNota",
+    "RelativePath": "api/Nota",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.NotaController",
+    "Method": "ApagarNota",
+    "RelativePath": "api/Nota",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.NotaController",
+    "Method": "AlterarDadosNota",
+    "RelativePath": "api/Nota",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "nota",
+        "Type": "projecto_autismo.Application.Entity.NotaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.NotaController",
+    "Method": "ObterNotapeloId",
+    "RelativePath": "api/Nota/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.TesteController",
+    "Method": "SalvarTeste",
+    "RelativePath": "api/Teste",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "teste",
+        "Type": "projecto_autismo.Application.Entity.TesteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.TesteController",
+    "Method": "ListarTeste",
+    "RelativePath": "api/Teste",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.TesteController",
+    "Method": "ApagarTeste",
+    "RelativePath": "api/Teste",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.TesteController",
+    "Method": "AlterarDadosAluno",
+    "RelativePath": "api/Teste",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "teste",
+        "Type": "projecto_autismo.Application.Entity.TesteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.TesteController",
+    "Method": "ObterTestepeloId",
+    "RelativePath": "api/Teste/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.TurmaController",
+    "Method": "SalvarTurma",
+    "RelativePath": "api/Turma",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "turma",
+        "Type": "projecto_autismo.Application.Entity.TurmaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.TurmaController",
+    "Method": "ListarTurma",
+    "RelativePath": "api/Turma",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.TurmaController",
+    "Method": "ApagarTurma",
+    "RelativePath": "api/Turma",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.TurmaController",
+    "Method": "AlterarDadosTurma",
+    "RelativePath": "api/Turma",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "turma",
+        "Type": "projecto_autismo.Application.Entity.TurmaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.TurmaController",
+    "Method": "ObterTurmapeloId",
+    "RelativePath": "api/Turma/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.UserController",
+    "Method": "SaveUsers",
+    "RelativePath": "api/User",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "projecto_autismo.Application.Dto.UserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.UserController",
+    "Method": "GetUsers",
+    "RelativePath": "api/User",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.UserController",
+    "Method": "GetUserPeloId",
+    "RelativePath": "api/User/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.UserController",
+    "Method": "UpdatePeloId",
+    "RelativePath": "api/User/{userId}/{user}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "user",
+        "Type": "projecto_autismo.Application.Dto.UserDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "user",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.UserController",
+    "Method": "SaveCargo",
+    "RelativePath": "api/User/cargo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "projecto_autismo.Application.Dto.CargoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.UserController",
+    "Method": "GetCargos",
+    "RelativePath": "api/User/cargo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.UserController",
+    "Method": "GetCargoPeloId",
+    "RelativePath": "api/User/cargo/{cargoId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cargoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.UserController",
+    "Method": "UserLogin",
+    "RelativePath": "api/User/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "projecto_autismo.Application.Dto.UserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.VitrineController",
+    "Method": "SalvarVitrine",
+    "RelativePath": "api/Vitrine",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vitrine",
+        "Type": "projecto_autismo.Application.Entity.VitrineDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.VitrineController",
+    "Method": "ListarAluno",
+    "RelativePath": "api/Vitrine",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.VitrineController",
+    "Method": "ApagarVitrine",
+    "RelativePath": "api/Vitrine",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.VitrineController",
+    "Method": "AlterarDadosVitrine",
+    "RelativePath": "api/Vitrine",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "vitrine",
+        "Type": "projecto_autismo.Application.Entity.VitrineDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.VitrineController",
+    "Method": "ObterVitrinePeloId",
+    "RelativePath": "api/Vitrine/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

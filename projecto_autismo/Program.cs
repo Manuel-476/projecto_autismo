@@ -65,6 +65,7 @@ builder.Services.AddTransient<ITeste, TesteRepository>();
 builder.Services.AddTransient<ITurma, TurmaRepository>();
 builder.Services.AddTransient<IVitrine, VitrineRepository>();
 builder.Services.AddTransient<IUser, UserRepository>();
+builder.Services.AddTransient<IAnoLectivo, AnoLectivoRepository>();
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 .AddJwtBearer(options =>

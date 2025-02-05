@@ -50,6 +50,12 @@ namespace projecto_autismo.InfraStructure.Mapper
 
             CreateMap<CargoDto, CargoEntity>();
             CreateMap<CargoEntity, CargoDto>();
+
+            CreateMap<AnoLectivoDto, AnoLectivoEntity>();
+            CreateMap<AnoLectivoEntity, AnoLectivoDto>();
+
+            CreateMap<TrimestreDto, TrimestreEntity>();
+            CreateMap<TrimestreEntity, TrimestreDto>();
         }
     }
 }

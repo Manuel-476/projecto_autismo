@@ -7,12 +7,26 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace projecto_autismo.Migrations
 {
     /// <inheritdoc />
-    public partial class lastMigration : Migration
+    public partial class AnoMigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.AlterDatabase()
+                .Annotation("MySql:CharSet", "utf8mb4");
+
+            migrationBuilder.CreateTable(
+                name: "anoLectivo",
+                columns: table => new
+                {
+                    id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    ano = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_anoLectivo", x => x.id);
+                })
                 .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateTable(
@@ -129,6 +143,21 @@ namespace projecto_autismo.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_teste", x => x.id);
+                })
+                .Annotation("MySql:CharSet", "utf8mb4");
+
+            migrationBuilder.CreateTable(
+                name: "trimestre",
+                columns: table => new
+                {
+                    id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    anoLectivoId = table.Column<int>(type: "int", nullable: false),
+                    trimestre = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_trimestre", x => x.id);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
 
@@ -297,6 +326,7 @@ namespace projecto_autismo.Migrations
                     nota2 = table.Column<float>(type: "float", nullable: false),
                     nota3 = table.Column<float>(type: "float", nullable: false),
                     disciplinaId = table.Column<int>(type: "int", nullable: false),
+                    trimestreId = table.Column<int>(type: "int", nullable: false),
                     alunoId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -354,6 +384,9 @@ namespace projecto_autismo.Migrations
                 name: "aluno");
 
             migrationBuilder.DropTable(
+                name: "anoLectivo");
+
+            migrationBuilder.DropTable(
                 name: "bVirtual");
 
             migrationBuilder.DropTable(
@@ -364,6 +397,9 @@ namespace projecto_autismo.Migrations
 
             migrationBuilder.DropTable(
                 name: "teste");
+
+            migrationBuilder.DropTable(
+                name: "trimestre");
 
             migrationBuilder.DropTable(
                 name: "user");

@@ -3,8 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|c:\\users\\smart entity\\documents\\github\\projecto_autismo\\projecto_autismo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|solutionrelative:projecto_autismo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|c:\\users\\smart entity\\documents\\github\\projecto_autismo\\projecto_autismo\\infrastructure\\mapper\\mappeadorprojecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|solutionrelative:projecto_autismo\\infrastructure\\mapper\\mappeadorprojecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|c:\\users\\smart entity\\documents\\github\\projecto_autismo\\projecto_autismo\\controllers\\anolectivocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|solutionrelative:projecto_autismo\\controllers\\anolectivocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|c:\\users\\smart entity\\documents\\github\\projecto_autismo\\projecto_autismo\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|solutionrelative:projecto_autismo\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Migrations\\20250205030841_AnoMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:projecto_autismo\\Migrations\\20250205030841_AnoMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|c:\\users\\smart entity\\documents\\github\\projecto_autismo\\projecto_autismo\\infrastructure\\repositories\\disciplinarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|solutionrelative:projecto_autismo\\infrastructure\\repositories\\disciplinarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|c:\\users\\smart entity\\documents\\github\\projecto_autismo\\projecto_autismo\\infrastructure\\database\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|solutionrelative:projecto_autismo\\infrastructure\\database\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|c:\\users\\smart entity\\documents\\github\\projecto_autismo\\projecto_autismo\\application\\dto\\notadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|solutionrelative:projecto_autismo\\application\\dto\\notadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|c:\\users\\smart entity\\documents\\github\\projecto_autismo\\projecto_autismo\\domain\\notaentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|solutionrelative:projecto_autismo\\domain\\notaentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|c:\\users\\smart entity\\documents\\github\\projecto_autismo\\projecto_autismo\\application\\dto\\anolectivodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|solutionrelative:projecto_autismo\\application\\dto\\anolectivodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|c:\\users\\smart entity\\documents\\github\\projecto_autismo\\projecto_autismo\\domain\\anolectivoentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|solutionrelative:projecto_autismo\\domain\\anolectivoentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|c:\\users\\smart entity\\documents\\github\\projecto_autismo\\projecto_autismo\\application\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|solutionrelative:projecto_autismo\\application\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|c:\\users\\smart entity\\documents\\github\\projecto_autismo\\projecto_autismo\\domain\\disciplinaentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|solutionrelative:projecto_autismo\\domain\\disciplinaentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|c:\\users\\smart entity\\documents\\github\\projecto_autismo\\projecto_autismo\\application\\dto\\disciplinadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|solutionrelative:projecto_autismo\\application\\dto\\disciplinadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|c:\\users\\smart entity\\documents\\github\\projecto_autismo\\projecto_autismo\\application\\services\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,28 +63,8 @@
       "RelativeMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|solutionrelative:projecto_autismo\\infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|c:\\users\\smart entity\\documents\\github\\projecto_autismo\\projecto_autismo\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|solutionrelative:projecto_autismo\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Migrations\\20250126115303_lastMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:projecto_autismo\\Migrations\\20250126115303_lastMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|c:\\users\\smart entity\\documents\\github\\projecto_autismo\\projecto_autismo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|solutionrelative:projecto_autismo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|c:\\users\\smart entity\\documents\\github\\projecto_autismo\\projecto_autismo\\infrastructure\\repositories\\encarregadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|solutionrelative:projecto_autismo\\infrastructure\\repositories\\encarregadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|c:\\users\\smart entity\\documents\\github\\projecto_autismo\\projecto_autismo\\infrastructure\\mapper\\mappeadorprojecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|solutionrelative:projecto_autismo\\infrastructure\\mapper\\mappeadorprojecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|c:\\users\\smart entity\\documents\\github\\projecto_autismo\\projecto_autismo\\infrastructure\\database\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|solutionrelative:projecto_autismo\\infrastructure\\database\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|c:\\users\\smart entity\\documents\\github\\projecto_autismo\\projecto_autismo\\controllers\\bibliotecacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,28 +87,8 @@
       "RelativeMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|solutionrelative:projecto_autismo\\application\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|c:\\users\\smart entity\\documents\\github\\projecto_autismo\\projecto_autismo\\infrastructure\\repositories\\disciplinarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|solutionrelative:projecto_autismo\\infrastructure\\repositories\\disciplinarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|c:\\users\\smart entity\\documents\\github\\projecto_autismo\\projecto_autismo\\infrastructure\\repositories\\notarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|solutionrelative:projecto_autismo\\infrastructure\\repositories\\notarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|c:\\users\\smart entity\\documents\\github\\projecto_autismo\\projecto_autismo\\application\\dto\\notadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|solutionrelative:projecto_autismo\\application\\dto\\notadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|c:\\users\\smart entity\\documents\\github\\projecto_autismo\\projecto_autismo\\application\\dto\\disciplinadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|solutionrelative:projecto_autismo\\application\\dto\\disciplinadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|c:\\users\\smart entity\\documents\\github\\projecto_autismo\\projecto_autismo\\domain\\disciplinaentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|solutionrelative:projecto_autismo\\domain\\disciplinaentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|c:\\users\\smart entity\\documents\\github\\projecto_autismo\\projecto_autismo\\domain\\notaentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|solutionrelative:projecto_autismo\\domain\\notaentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{38F8D881-F47E-4568-86B0-3A31E619F8D5}|projecto_autismo\\projecto_autismo.csproj|c:\\users\\smart entity\\documents\\github\\projecto_autismo\\projecto_autismo\\application\\dto\\alunodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -142,63 +150,154 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "20250205030841_AnoMigration.cs",
+              "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Migrations\\20250205030841_AnoMigration.cs",
+              "RelativeDocumentMoniker": "projecto_autismo\\Migrations\\20250205030841_AnoMigration.cs",
+              "ToolTip": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Migrations\\20250205030841_AnoMigration.cs",
+              "RelativeToolTip": "projecto_autismo\\Migrations\\20250205030841_AnoMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T03:08:41.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DbConnection.cs",
+              "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\InfraStructure\\DataBase\\DbConnection.cs",
+              "RelativeDocumentMoniker": "projecto_autismo\\InfraStructure\\DataBase\\DbConnection.cs",
+              "ToolTip": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\InfraStructure\\DataBase\\DbConnection.cs",
+              "RelativeToolTip": "projecto_autismo\\InfraStructure\\DataBase\\DbConnection.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAiwD8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T11:12:59.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AnoLectivoEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Domain\\AnoLectivoEntity.cs",
+              "RelativeDocumentMoniker": "projecto_autismo\\Domain\\AnoLectivoEntity.cs",
+              "ToolTip": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Domain\\AnoLectivoEntity.cs",
+              "RelativeToolTip": "projecto_autismo\\Domain\\AnoLectivoEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T02:29:34.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Application\\Enums.cs",
+              "RelativeDocumentMoniker": "projecto_autismo\\Application\\Enums.cs",
+              "ToolTip": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Application\\Enums.cs",
+              "RelativeToolTip": "projecto_autismo\\Application\\Enums.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T02:31:54.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "projecto_autismo\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Controllers\\UserController.cs",
               "RelativeToolTip": "projecto_autismo\\Controllers\\UserController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAswCoAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAA4wEcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-26T11:24:55.266Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\appsettings.json",
-              "RelativeDocumentMoniker": "projecto_autismo\\appsettings.json",
-              "ToolTip": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\appsettings.json",
-              "RelativeToolTip": "projecto_autismo\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-26T11:18:17.681Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Program.cs",
-              "RelativeDocumentMoniker": "projecto_autismo\\Program.cs",
-              "ToolTip": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Program.cs",
-              "RelativeToolTip": "projecto_autismo\\Program.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAADwv0IAAAAzAAAAAAAAAA==",
+              "Title": "MappeadorProjecto.cs",
+              "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\InfraStructure\\Mapper\\MappeadorProjecto.cs",
+              "RelativeDocumentMoniker": "projecto_autismo\\InfraStructure\\Mapper\\MappeadorProjecto.cs",
+              "ToolTip": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\InfraStructure\\Mapper\\MappeadorProjecto.cs",
+              "RelativeToolTip": "projecto_autismo\\InfraStructure\\Mapper\\MappeadorProjecto.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAADkAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T11:09:23.904Z",
+              "WhenOpened": "2025-01-26T09:37:26.858Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IUser.cs",
-              "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Application\\Services\\IUser.cs",
-              "RelativeDocumentMoniker": "projecto_autismo\\Application\\Services\\IUser.cs",
-              "ToolTip": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Application\\Services\\IUser.cs",
-              "RelativeToolTip": "projecto_autismo\\Application\\Services\\IUser.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAowBAAAAA0AAAAAAAAAA==",
+              "Title": "AnoLectivoController.cs",
+              "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Controllers\\AnoLectivoController.cs",
+              "RelativeDocumentMoniker": "projecto_autismo\\Controllers\\AnoLectivoController.cs",
+              "ToolTip": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Controllers\\AnoLectivoController.cs",
+              "RelativeToolTip": "projecto_autismo\\Controllers\\AnoLectivoController.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAADwv1YAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T09:41:30.63Z",
+              "WhenOpened": "2025-02-05T03:11:58.497Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
+              "Title": "AnoLectivoDto.cs",
+              "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Application\\Dto\\AnoLectivoDto.cs",
+              "RelativeDocumentMoniker": "projecto_autismo\\Application\\Dto\\AnoLectivoDto.cs",
+              "ToolTip": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Application\\Dto\\AnoLectivoDto.cs",
+              "RelativeToolTip": "projecto_autismo\\Application\\Dto\\AnoLectivoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T02:34:05.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DisciplinaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\InfraStructure\\Repositories\\DisciplinaRepository.cs",
+              "RelativeDocumentMoniker": "projecto_autismo\\InfraStructure\\Repositories\\DisciplinaRepository.cs",
+              "ToolTip": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\InfraStructure\\Repositories\\DisciplinaRepository.cs",
+              "RelativeToolTip": "projecto_autismo\\InfraStructure\\Repositories\\DisciplinaRepository.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAiwB4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T15:48:44.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NotaEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Domain\\NotaEntity.cs",
+              "RelativeDocumentMoniker": "projecto_autismo\\Domain\\NotaEntity.cs",
+              "ToolTip": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Domain\\NotaEntity.cs",
+              "RelativeToolTip": "projecto_autismo\\Domain\\NotaEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T15:42:10.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NotaDto.cs",
+              "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Application\\Dto\\NotaDto.cs",
+              "RelativeDocumentMoniker": "projecto_autismo\\Application\\Dto\\NotaDto.cs",
+              "ToolTip": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Application\\Dto\\NotaDto.cs",
+              "RelativeToolTip": "projecto_autismo\\Application\\Dto\\NotaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T15:40:53.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\InfraStructure\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "projecto_autismo\\InfraStructure\\Repositories\\UserRepository.cs",
@@ -206,38 +305,61 @@
               "RelativeToolTip": "projecto_autismo\\InfraStructure\\Repositories\\UserRepository.cs",
               "ViewState": "AgIAAEgAAAAAAAAAAAAswE4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T09:39:17.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-26T09:39:17.126Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20250126115303_lastMigration.cs",
-              "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Migrations\\20250126115303_lastMigration.cs",
-              "RelativeDocumentMoniker": "projecto_autismo\\Migrations\\20250126115303_lastMigration.cs",
-              "ToolTip": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Migrations\\20250126115303_lastMigration.cs",
-              "RelativeToolTip": "projecto_autismo\\Migrations\\20250126115303_lastMigration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "DisciplinaDto.cs",
+              "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Application\\Dto\\DisciplinaDto.cs",
+              "RelativeDocumentMoniker": "projecto_autismo\\Application\\Dto\\DisciplinaDto.cs",
+              "ToolTip": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Application\\Dto\\DisciplinaDto.cs",
+              "RelativeToolTip": "projecto_autismo\\Application\\Dto\\DisciplinaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T11:53:03.35Z",
+              "WhenOpened": "2025-01-25T15:43:00.226Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MappeadorProjecto.cs",
-              "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\InfraStructure\\Mapper\\MappeadorProjecto.cs",
-              "RelativeDocumentMoniker": "projecto_autismo\\InfraStructure\\Mapper\\MappeadorProjecto.cs",
-              "ToolTip": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\InfraStructure\\Mapper\\MappeadorProjecto.cs",
-              "RelativeToolTip": "projecto_autismo\\InfraStructure\\Mapper\\MappeadorProjecto.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAADMAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "DisciplinaEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Domain\\DisciplinaEntity.cs",
+              "RelativeDocumentMoniker": "projecto_autismo\\Domain\\DisciplinaEntity.cs",
+              "ToolTip": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Domain\\DisciplinaEntity.cs",
+              "RelativeToolTip": "projecto_autismo\\Domain\\DisciplinaEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T09:37:26.858Z",
+              "WhenOpened": "2025-01-25T15:44:08.244Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
+              "Title": "IUser.cs",
+              "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Application\\Services\\IUser.cs",
+              "RelativeDocumentMoniker": "projecto_autismo\\Application\\Services\\IUser.cs",
+              "ToolTip": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Application\\Services\\IUser.cs",
+              "RelativeToolTip": "projecto_autismo\\Application\\Services\\IUser.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowBAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T09:41:30.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\appsettings.json",
+              "RelativeDocumentMoniker": "projecto_autismo\\appsettings.json",
+              "ToolTip": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\appsettings.json",
+              "RelativeToolTip": "projecto_autismo\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-26T11:18:17.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "CargoDto.cs",
               "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Application\\Dto\\CargoDto.cs",
               "RelativeDocumentMoniker": "projecto_autismo\\Application\\Dto\\CargoDto.cs",
@@ -245,38 +367,11 @@
               "RelativeToolTip": "projecto_autismo\\Application\\Dto\\CargoDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T09:26:07.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-26T09:26:07.445Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EncarregadoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\InfraStructure\\Repositories\\EncarregadoRepository.cs",
-              "RelativeDocumentMoniker": "projecto_autismo\\InfraStructure\\Repositories\\EncarregadoRepository.cs",
-              "ToolTip": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\InfraStructure\\Repositories\\EncarregadoRepository.cs",
-              "RelativeToolTip": "projecto_autismo\\InfraStructure\\Repositories\\EncarregadoRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T14:22:16.088Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DbConnection.cs",
-              "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\InfraStructure\\DataBase\\DbConnection.cs",
-              "RelativeDocumentMoniker": "projecto_autismo\\InfraStructure\\DataBase\\DbConnection.cs",
-              "ToolTip": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\InfraStructure\\DataBase\\DbConnection.cs",
-              "RelativeToolTip": "projecto_autismo\\InfraStructure\\DataBase\\DbConnection.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAcwBMAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T11:12:59.224Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "CargoEntity.cs",
               "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Domain\\CargoEntity.cs",
               "RelativeDocumentMoniker": "projecto_autismo\\Domain\\CargoEntity.cs",
@@ -284,12 +379,11 @@
               "RelativeToolTip": "projecto_autismo\\Domain\\CargoEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T09:26:31.934Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-26T09:26:31.934Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "BibliotecaController.cs",
               "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Controllers\\BibliotecaController.cs",
               "RelativeDocumentMoniker": "projecto_autismo\\Controllers\\BibliotecaController.cs",
@@ -302,7 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "UserEntity.cs",
               "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Domain\\UserEntity.cs",
               "RelativeDocumentMoniker": "projecto_autismo\\Domain\\UserEntity.cs",
@@ -310,12 +404,11 @@
               "RelativeToolTip": "projecto_autismo\\Domain\\UserEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T09:23:46.398Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-26T09:23:46.398Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Application\\Dto\\UserDto.cs",
               "RelativeDocumentMoniker": "projecto_autismo\\Application\\Dto\\UserDto.cs",
@@ -323,12 +416,11 @@
               "RelativeToolTip": "projecto_autismo\\Application\\Dto\\UserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T09:25:49.844Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-26T09:25:49.844Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "NotaRepository.cs",
               "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\InfraStructure\\Repositories\\NotaRepository.cs",
               "RelativeDocumentMoniker": "projecto_autismo\\InfraStructure\\Repositories\\NotaRepository.cs",
@@ -336,51 +428,11 @@
               "RelativeToolTip": "projecto_autismo\\InfraStructure\\Repositories\\NotaRepository.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAwwDwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T09:20:53.097Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-26T09:20:53.097Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "DisciplinaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\InfraStructure\\Repositories\\DisciplinaRepository.cs",
-              "RelativeDocumentMoniker": "projecto_autismo\\InfraStructure\\Repositories\\DisciplinaRepository.cs",
-              "ToolTip": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\InfraStructure\\Repositories\\DisciplinaRepository.cs",
-              "RelativeToolTip": "projecto_autismo\\InfraStructure\\Repositories\\DisciplinaRepository.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAewDoAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T15:48:44.974Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "DisciplinaDto.cs",
-              "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Application\\Dto\\DisciplinaDto.cs",
-              "RelativeDocumentMoniker": "projecto_autismo\\Application\\Dto\\DisciplinaDto.cs",
-              "ToolTip": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Application\\Dto\\DisciplinaDto.cs",
-              "RelativeToolTip": "projecto_autismo\\Application\\Dto\\DisciplinaDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T15:43:00.226Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "NotaEntity.cs",
-              "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Domain\\NotaEntity.cs",
-              "RelativeDocumentMoniker": "projecto_autismo\\Domain\\NotaEntity.cs",
-              "ToolTip": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Domain\\NotaEntity.cs",
-              "RelativeToolTip": "projecto_autismo\\Domain\\NotaEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T15:42:10.312Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "DisciplinaController.cs",
               "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Controllers\\DisciplinaController.cs",
               "RelativeDocumentMoniker": "projecto_autismo\\Controllers\\DisciplinaController.cs",
@@ -388,12 +440,11 @@
               "RelativeToolTip": "projecto_autismo\\Controllers\\DisciplinaController.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAIwDEAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T15:40:02.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T15:40:02.149Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "AlunoDto.cs",
               "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Application\\Dto\\AlunoDto.cs",
               "RelativeDocumentMoniker": "projecto_autismo\\Application\\Dto\\AlunoDto.cs",
@@ -401,38 +452,11 @@
               "RelativeToolTip": "projecto_autismo\\Application\\Dto\\AlunoDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAswAgAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T09:50:33.101Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T09:50:33.101Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "NotaDto.cs",
-              "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Application\\Dto\\NotaDto.cs",
-              "RelativeDocumentMoniker": "projecto_autismo\\Application\\Dto\\NotaDto.cs",
-              "ToolTip": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Application\\Dto\\NotaDto.cs",
-              "RelativeToolTip": "projecto_autismo\\Application\\Dto\\NotaDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T15:40:53.142Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "DisciplinaEntity.cs",
-              "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Domain\\DisciplinaEntity.cs",
-              "RelativeDocumentMoniker": "projecto_autismo\\Domain\\DisciplinaEntity.cs",
-              "ToolTip": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Domain\\DisciplinaEntity.cs",
-              "RelativeToolTip": "projecto_autismo\\Domain\\DisciplinaEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T15:44:08.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "NotaController.cs",
               "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Controllers\\NotaController.cs",
               "RelativeDocumentMoniker": "projecto_autismo\\Controllers\\NotaController.cs",
@@ -440,12 +464,11 @@
               "RelativeToolTip": "projecto_autismo\\Controllers\\NotaController.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T15:38:35.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T15:38:35.595Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "AlunoController.cs",
               "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Controllers\\AlunoController.cs",
               "RelativeDocumentMoniker": "projecto_autismo\\Controllers\\AlunoController.cs",
@@ -453,12 +476,11 @@
               "RelativeToolTip": "projecto_autismo\\Controllers\\AlunoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T15:24:33.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T15:24:33.695Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "20250125112003_lastMigration.cs",
               "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Migrations\\20250125112003_lastMigration.cs",
               "RelativeDocumentMoniker": "projecto_autismo\\Migrations\\20250125112003_lastMigration.cs",
@@ -466,12 +488,11 @@
               "RelativeToolTip": "projecto_autismo\\Migrations\\20250125112003_lastMigration.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T11:20:03.877Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T11:20:03.877Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "MatriculaEntity.cs",
               "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Domain\\MatriculaEntity.cs",
               "RelativeDocumentMoniker": "projecto_autismo\\Domain\\MatriculaEntity.cs",
@@ -479,12 +500,11 @@
               "RelativeToolTip": "projecto_autismo\\Domain\\MatriculaEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T11:11:16.218Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T11:11:16.218Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "AlunoEntity.cs",
               "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Domain\\AlunoEntity.cs",
               "RelativeDocumentMoniker": "projecto_autismo\\Domain\\AlunoEntity.cs",
@@ -492,12 +512,11 @@
               "RelativeToolTip": "projecto_autismo\\Domain\\AlunoEntity.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAA1wA4AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T11:10:06.439Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T11:10:06.439Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "EncarregadoDto.cs",
               "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Application\\Dto\\EncarregadoDto.cs",
               "RelativeDocumentMoniker": "projecto_autismo\\Application\\Dto\\EncarregadoDto.cs",
@@ -505,12 +524,11 @@
               "RelativeToolTip": "projecto_autismo\\Application\\Dto\\EncarregadoDto.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T09:54:09.878Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T09:54:09.878Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "MatriculaDto.cs",
               "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Application\\Dto\\MatriculaDto.cs",
               "RelativeDocumentMoniker": "projecto_autismo\\Application\\Dto\\MatriculaDto.cs",
@@ -518,12 +536,11 @@
               "RelativeToolTip": "projecto_autismo\\Application\\Dto\\MatriculaDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T09:50:34.927Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T09:50:34.927Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "AlunoRepository.cs",
               "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\InfraStructure\\Repositories\\AlunoRepository.cs",
               "RelativeDocumentMoniker": "projecto_autismo\\InfraStructure\\Repositories\\AlunoRepository.cs",
@@ -531,12 +548,11 @@
               "RelativeToolTip": "projecto_autismo\\InfraStructure\\Repositories\\AlunoRepository.cs",
               "ViewState": "AgIAAFgAAAAAAAAAAAAUwGcAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T13:00:18.183Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T13:00:18.183Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "EncarregadoAlunoDto.cs",
               "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Application\\Dto\\EncarregadoAlunoDto.cs",
               "RelativeDocumentMoniker": "projecto_autismo\\Application\\Dto\\EncarregadoAlunoDto.cs",
@@ -544,12 +560,11 @@
               "RelativeToolTip": "projecto_autismo\\Application\\Dto\\EncarregadoAlunoDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T10:53:50.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T10:53:50.746Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "EncarregadoAlunoEntity.cs",
               "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Domain\\EncarregadoAlunoEntity.cs",
               "RelativeDocumentMoniker": "projecto_autismo\\Domain\\EncarregadoAlunoEntity.cs",
@@ -557,12 +572,11 @@
               "RelativeToolTip": "projecto_autismo\\Domain\\EncarregadoAlunoEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T11:08:09.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T11:08:09.048Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "IEncarregado.cs",
               "DocumentMoniker": "C:\\Users\\Smart Entity\\Documents\\GitHub\\projecto_autismo\\projecto_autismo\\Application\\Services\\IEncarregado.cs",
               "RelativeDocumentMoniker": "projecto_autismo\\Application\\Services\\IEncarregado.cs",
@@ -570,8 +584,7 @@
               "RelativeToolTip": "projecto_autismo\\Application\\Services\\IEncarregado.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T14:16:16.444Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T14:16:16.444Z"
             }
           ]
         }

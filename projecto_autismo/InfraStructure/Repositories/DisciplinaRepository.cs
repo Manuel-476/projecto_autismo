@@ -28,7 +28,7 @@ public class DisciplinaRepository : IDisciplina
             oldDisciplina.descricao = newDisciplina.descricao;
             oldDisciplina.nome = newDisciplina.nome;
           //  oldDisciplina.funcionarios = newDisciplina.funcionarios;
-            oldDisciplina.notas = newDisciplina.notas;
+            //oldDisciplina.notas = newDisciplina.notas;
 
             conector.SaveChanges();
 
@@ -59,7 +59,7 @@ public class DisciplinaRepository : IDisciplina
         using var conector = new DbConnection();
         try
         {
-            var disciplinas = conector.disciplina.Include(x => x.notas).ToList();
+            var disciplinas = conector.disciplina.ToList();
 
             var result = _mapper.Map<List<DisciplinaDto>>(disciplinas);
 

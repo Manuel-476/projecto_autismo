@@ -18,6 +18,8 @@ namespace projecto_autismo.InfraStructure.DataBase
         public DbSet<VitrineEntity> vitrine { get; set; }
         public DbSet<UserEntity> user { get; set; }
         public DbSet<CargoEntity> cargo { get; set; }
+        public DbSet<AnoLectivoEntity> anoLectivo { get; set; }
+        public DbSet<TrimestreEntity> trimestre { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -56,10 +58,10 @@ namespace projecto_autismo.InfraStructure.DataBase
             //            .HasMany(disc => disc.turmas)
             //            .WithMany(t => t.disciplinas);
 
-            modelBuilder.Entity<DisciplinaEntity>()
-            .HasMany(disc => disc.notas)
-            .WithOne(n => n.disciplina)
-            .HasForeignKey(n => n.disciplinaId);
+            //modelBuilder.Entity<DisciplinaEntity>()
+            //.HasMany(disc => disc.notas)
+            //.WithOne(n => n.disciplina)
+            //.HasForeignKey(n => n.disciplinaId);
 
         }
     }

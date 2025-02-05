@@ -58,6 +58,22 @@ namespace projecto_autismo.Migrations
                     b.ToTable("aluno");
                 });
 
+            modelBuilder.Entity("projecto_autismo.Domain.AnoLectivoEntity", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("id"));
+
+                    b.Property<int>("ano")
+                        .HasColumnType("int");
+
+                    b.HasKey("id");
+
+                    b.ToTable("anoLectivo");
+                });
+
             modelBuilder.Entity("projecto_autismo.Domain.BibliotecaVirtualEntity", b =>
                 {
                     b.Property<int>("id")
@@ -293,6 +309,9 @@ namespace projecto_autismo.Migrations
                     b.Property<float>("nota3")
                         .HasColumnType("float");
 
+                    b.Property<int>("trimestreId")
+                        .HasColumnType("int");
+
                     b.HasKey("id");
 
                     b.HasIndex("disciplinaId");
@@ -321,6 +340,25 @@ namespace projecto_autismo.Migrations
                     b.HasKey("id");
 
                     b.ToTable("teste");
+                });
+
+            modelBuilder.Entity("projecto_autismo.Domain.TrimestreEntity", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("id"));
+
+                    b.Property<int>("anoLectivoId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("trimestre")
+                        .HasColumnType("int");
+
+                    b.HasKey("id");
+
+                    b.ToTable("trimestre");
                 });
 
             modelBuilder.Entity("projecto_autismo.Domain.TurmaEntity", b =>
@@ -434,7 +472,7 @@ namespace projecto_autismo.Migrations
             modelBuilder.Entity("projecto_autismo.Domain.NotaEntity", b =>
                 {
                     b.HasOne("projecto_autismo.Domain.DisciplinaEntity", "disciplina")
-                        .WithMany("notas")
+                        .WithMany()
                         .HasForeignKey("disciplinaId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -467,11 +505,6 @@ namespace projecto_autismo.Migrations
             modelBuilder.Entity("projecto_autismo.Domain.CategoriaEntity", b =>
                 {
                     b.Navigation("virtuais");
-                });
-
-            modelBuilder.Entity("projecto_autismo.Domain.DisciplinaEntity", b =>
-                {
-                    b.Navigation("notas");
                 });
 
             modelBuilder.Entity("projecto_autismo.Domain.EncarregadoEntity", b =>

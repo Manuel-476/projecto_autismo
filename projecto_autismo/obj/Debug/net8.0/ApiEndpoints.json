@@ -79,6 +79,164 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "projecto_autismo.Controllers.AnoLectivoController",
+    "Method": "SalvarAnoLectivo",
+    "RelativePath": "api/AnoLectivo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "anoLectivo",
+        "Type": "projecto_autismo.Application.Dto.AnoLectivoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.AnoLectivoController",
+    "Method": "GetAnos",
+    "RelativePath": "api/AnoLectivo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.AnoLectivoController",
+    "Method": "GetAnoPeloId",
+    "RelativePath": "api/AnoLectivo/{anoId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "anoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.AnoLectivoController",
+    "Method": "DeleteAnoPeloId",
+    "RelativePath": "api/AnoLectivo/{anoId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "anoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.AnoLectivoController",
+    "Method": "UpdatePeloId",
+    "RelativePath": "api/AnoLectivo/{anoId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "anoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "anoLectivo",
+        "Type": "projecto_autismo.Application.Dto.AnoLectivoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.AnoLectivoController",
+    "Method": "SaveTrimestre",
+    "RelativePath": "api/AnoLectivo/trimestre",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "trimestre",
+        "Type": "projecto_autismo.Application.Dto.TrimestreDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.AnoLectivoController",
+    "Method": "GetTrimestres",
+    "RelativePath": "api/AnoLectivo/trimestre",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.AnoLectivoController",
+    "Method": "GetTrimestrePeloId",
+    "RelativePath": "api/AnoLectivo/trimestre/{trimestreId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "trimestreId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.AnoLectivoController",
+    "Method": "UpdateTrimestrePeloId",
+    "RelativePath": "api/AnoLectivo/trimestre/{trimestreId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "trimestreId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "projecto_autismo.Controllers.AnoLectivoController",
+    "Method": "UpdateTrimestrePeloId",
+    "RelativePath": "api/AnoLectivo/trimestre/{trimestreId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "trimestreId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "trimestre",
+        "Type": "projecto_autismo.Application.Dto.TrimestreDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "projecto_autismo.Controllers.BibliotecaController",
     "Method": "SalvarMedia",
     "RelativePath": "api/Biblioteca_Virtual",
